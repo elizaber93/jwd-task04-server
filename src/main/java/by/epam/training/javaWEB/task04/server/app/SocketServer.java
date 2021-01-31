@@ -1,7 +1,5 @@
 package by.epam.training.javaWEB.task04.server.app;
 
-import by.epam.training.javaWEB.task04.server.exception.Log;
-
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;

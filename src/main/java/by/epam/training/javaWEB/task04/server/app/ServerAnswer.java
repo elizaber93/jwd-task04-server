@@ -17,6 +17,8 @@ public class ServerAnswer {
             case 1: return TextProcess.getBookString();
             case 2: return TextProcess.sortSentences().toString();
             case 3: return TextProcess.swapWords().toString();
+            case 4: return TextProcess.getWordsByOrder().toString();
+            case 5: return TextProcess.vowelWordsByOrder().toString();
             default: return("Unknown request");
         }
     }
